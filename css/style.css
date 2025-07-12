@@ -41,7 +41,7 @@ body{
 .presentation{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
     padding: 5% 15%;
     gap: 82px;
 }
@@ -130,6 +130,7 @@ body{
     .presentation{
         flex-direction: column-reverse;
         padding: 5%;
+        align-items: center;
     }
     .presentation__content{
         width: auto;
